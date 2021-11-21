@@ -1,0 +1,6 @@
+<!--pages/map/map.wxml-->
+<map 
+     show-location="true"
+     enable-traffic="true"
+     longitude="{{long}}"
+     latitude="{{lat}}"></map>

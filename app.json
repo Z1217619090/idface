@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/mine/mine"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#f5b199",
+    "navigationBarTitleText": "学习资料",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#f5f5f5"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "./assets/icon/ac_dz.png",
+        "selectedIconPath": "./assets/icon/dz.png",
+        "text": "点赞"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "./assets/icon/ac_tb.png",
+        "selectedIconPath": "./assets/icon/tb.png",
+        "text": "投币"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "./assets/icon/ac_sc.png",
+        "selectedIconPath": "./assets/icon/sc.png",
+        "text": "收藏"
+      }
+    ],
+    "selectedColor": "#f5b199"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
